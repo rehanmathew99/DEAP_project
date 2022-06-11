@@ -1,0 +1,15 @@
+def count():
+    s = input("enter a sentence: \n")
+    c = 0
+    for x in s:
+        if x == ' ':
+            c += 1
+    print("word is:\n",s)
+    print("no of words is: ", c + 1)
+
+
+more = 1
+
+while more == 1:
+    count()
+    more = int(input("enter 1 for more, 0 to end: "))
