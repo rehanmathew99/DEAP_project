@@ -30,3 +30,5 @@ print(mycursor.rowcount, "was inserted. ")
 alter= "ALTER TABLE CAGR ADD CAL_CAGR varchar(255) DEFAULT 'CS'"
 mycursor.execute(alter) 
 print("thankyou")
+
+print("vitish")
